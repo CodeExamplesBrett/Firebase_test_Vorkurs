@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fghrtz": {
+      "hosting": {
+        "firebase-todolist": [
+          "fghrtz"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fghrtz"
+  }
+}
