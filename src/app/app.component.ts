@@ -48,7 +48,7 @@ export class AppComponent {
     const docRef = doc(coll, 'NnCgZTDT7qOetxt1qdUJ');
     const currentContent = docData(docRef)
     console.log('current', currentContent)
-    //setDoc(docRef, {currentContent, job: 'doctor'})
+    setDoc(docRef, {currentContent, job: 'doctor'})
     //add document to collection from the input text field for html [(ngModel)]="todoText"
     //setDoc(coll, {test: 'test-data'});
 
